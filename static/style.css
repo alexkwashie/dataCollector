@@ -1,5 +1,47 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
 .container {
-    margin: 0 auto;
     width: 100%;
-    height: ;
+    height: 100%;
+    background-color: #006656;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+.container h1 {
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.container form {
+    margin: 30px;
+}
+
+.container input {
+    margin-bottom: 10px;
+    width: 170px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.container button:hover {
+    border-radius: 4px;
+    background-color: rgb(58, 226, 100);
+    color: white;
+}
+
+.container button {
+    padding: 6px;
+    border-radius: 4px;
+}
+
+p {
+    font-size: 30px;
+    margin: 300px;
 }
