@@ -8,9 +8,10 @@ app = Flask(__name__) #the app script is defaultly named '__main__'
 def index():
     return render_template("index.html")
 
-def index():
+@app.route("/success", methods = ['POST'])
+def success():
     return render_template("success.html")
 
 if __name__ == "__main__":
     app.debug=True
-    app.run(port=5700)
+    app.run(port=5800)
