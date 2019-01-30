@@ -6,3 +6,5 @@ Flask app:
 5.open activate file: . myfolder/bin/activate
 6.  install Flask: pip3 install Flask
 7. use Deactivate to exit virtualenv
+8. install psycopg2 to use SqlAlchemy in the virtual machine(pip3 install psycopg2)
+9. pip3 install Flask-SQLAlchemy
